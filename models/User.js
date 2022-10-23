@@ -54,4 +54,8 @@ class User {
     return this._admin;
   }
 
+  set admin(value){
+    this._admin = value;
+  }
+
 }
